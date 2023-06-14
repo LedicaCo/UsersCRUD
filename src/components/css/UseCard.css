@@ -26,14 +26,7 @@
     border: 1px solid #00BFFF;
     box-shadow: 0.2em 0.2em 1em #0005;
     border-radius: 7px;
-    
-    
-    margin-bottom: 20px;
     justify-content: center;
-/*     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) */
-
-
 }
 
 .btn__content {
@@ -117,12 +110,7 @@
     background-color: #00BFFF;
 }
 
-@media (max-width: 576px) {
-    .cards__container {
-      grid-template-columns: 1fr;
-      padding: 0 10px;
-    }
-  }
+
 
 
 

@@ -40,7 +40,7 @@ function App() {
           setIsCloseForm={setIsCloseForm}
         />
       </div>
-      <div>
+      <div className="user__content">
         {users?.map((user) => (
           <UserCard
             key={user.id}

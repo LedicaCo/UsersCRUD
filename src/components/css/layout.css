@@ -13,26 +13,18 @@
     justify-content: space-between;
     margin-bottom: 50px;
 }
-
-/* .cards__container {
+ 
+.user__content{
+    gap: 1em;
+    width: 1024px;
     margin: 0 auto;
-    max-width: 1024px;
-    grid-gap: 20px;
     display: grid;
-    justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-} */
-
-.cards__container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    max-width: 1024px;
-    margin: 0 auto;
-    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
 }
 
+
 @media (max-width: 576px) {
-    .cards__container {
+    .user__content {
       justify-content: center;
       grid-template-columns: 1fr;
       padding: 0 10px;
