@@ -9,6 +9,14 @@
     border: none;border-radius: 6px;
     display:inline-flex;
     align-items: center;
+    cursor: pointer;
+}
+
+.openForm__btn:hover {
+    background-color: #228B22;
+    transition: all 200ms ease-in-out;
+    transform: scale(1px);
+
 }
 
 .bx-plus {
