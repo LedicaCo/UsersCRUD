@@ -1,0 +1,55 @@
+.app__content {
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+       
+}
+
+.header {
+    padding-top: 25px;
+    margin: 0 auto; 
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+/* .cards__container {
+    margin: 0 auto;
+    max-width: 1024px;
+    grid-gap: 20px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+} */
+
+.cards__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    max-width: 1024px;
+    margin: 0 auto;
+    gap: 1rem;
+}
+
+@media (max-width: 576px) {
+    .cards__container {
+      justify-content: center;
+      grid-template-columns: 1fr;
+      padding: 0 10px;
+    }
+    
+    .header {
+        width: 100%;
+        flex-direction: column;        
+    }
+    
+    .card__title {
+        font-size: large;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .openForm__btn {
+        width: 60%;
+        margin: 0 auto;
+    }
+  }

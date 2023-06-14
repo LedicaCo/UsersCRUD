@@ -1,0 +1,128 @@
+.card__title {
+    font-size: xx-large;
+}
+
+.openForm__btn {
+    padding: 7px 30px;
+    background-color: green;
+    color: ghostwhite;
+    border: none;border-radius: 6px;
+    display:inline-flex;
+    align-items: center;
+}
+
+.bx-plus {
+    margin-right: 1em;
+    font-size: 1.5em;
+}
+
+
+.card__content{
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #00BFFF;
+    box-shadow: 0.2em 0.2em 1em #0005;
+    border-radius: 7px;
+    
+    
+    margin-bottom: 20px;
+    justify-content: center;
+/*     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) */
+
+
+}
+
+.btn__content {
+    display: flex;
+    gap: 0.5em;
+    justify-content: end;
+}
+
+
+.bx-plus {
+    margin-right: 1em;
+}
+
+.card__info {
+    display: grid;
+    grid-template-columns:200px;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.card__email {
+    display: block;
+    text-transform: uppercase;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 0.5em;
+    
+
+}
+
+.email {
+    display: block;
+
+    margin-bottom: 1em;
+    
+}
+
+.card__birthday {
+    display: block;
+    text-transform: uppercase;
+    color: blue;
+    margin-bottom: 0.5em;
+    
+}
+
+.birthday {
+    display:inline-flex;
+}
+
+.bx-gift {
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}
+
+.divider {
+    width: 100%;
+    height: 0.5px solid #00BFFF;
+    margin-bottom: 1em;
+}
+
+.card__btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5em;
+    color: #fff;
+    display:grid;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn__trash {
+    background-color: red;
+    
+    
+}
+
+.btn__edit {
+    background-color: #00BFFF;
+}
+
+@media (max-width: 576px) {
+    .cards__container {
+      grid-template-columns: 1fr;
+      padding: 0 10px;
+    }
+  }
+
+
+
