@@ -17,7 +17,7 @@ function App() {
 
   useEffect(() => {
     getAllUser("/users");
-  }, []);
+  }, [getAllUser]);
 
   const handleOpenForm = () => {
     setIsCloseForm(false);
