@@ -28,7 +28,7 @@
     width: 100%;
       justify-content: center;
       grid-template-columns: 1fr;
-      padding: 0 10px;
+      
     }
     
     .header {

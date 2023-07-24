@@ -11,7 +11,8 @@ function App() {
 
   const [updateInfo, setUpdateInfo] = useState();
 
-  const baseUrl = "https://users-crud.academlo.tech/";
+  /* const baseUrl = "https://users-crud.academlo.tech/"; */
+  const baseUrl = "https://users-crud-api-fa1v.onrender.com/";
   const [users, getAllUser, createNewUser, deleteUserById, updateUserById] =
     useFetch(baseUrl);
 
